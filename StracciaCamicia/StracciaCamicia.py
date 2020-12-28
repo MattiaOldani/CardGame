@@ -76,7 +76,7 @@ while len(mazzo1)!=0 and len(mazzo2)!=0:
             banco.append(mazzo2.pop(0))
             girare=banco[len(banco)-1]
             if girare<4:
-                ritiro=Tru
+                ritiro=True
             print("Gira una carta il giocatore 2"+"\nGiocatore1: "+str(mazzo1)+"\nGiocatore2: "+str(mazzo2)+"\nBanco: "+str(banco)+"\n")
         turno=1
 
